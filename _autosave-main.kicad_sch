@@ -2,10 +2,9 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7")
+	(uuid "01bb8717-43d1-4e08-9c17-882bd8ccbb76")
 	(paper "A4")
 	(title_block
-		(title "Design project")
 		(date "2025-03-23")
 		(rev "v0")
 		(company "University of Cape Town")
@@ -13,10 +12,4 @@
 		(comment 4 "Phila Haanyama, Hannah Owen")
 	)
 	(lib_symbols)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

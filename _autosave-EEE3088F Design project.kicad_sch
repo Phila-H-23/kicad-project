@@ -1,0 +1,65 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7")
+	(paper "A4")
+	(title_block
+		(title "Design project")
+		(date "2025-03-23")
+		(rev "v0")
+		(company "University of Cape Town")
+		(comment 3 "HNYPHI001")
+		(comment 4 "Phila Haanyama, Hannah Owen")
+	)
+	(lib_symbols)
+	(sheet
+		(at 53.34 41.91)
+		(size 34.29 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10")
+		(property "Sheetname" "motor connections"
+			(at 53.34 41.1984 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 53.34 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
