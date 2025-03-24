@@ -56,12 +56,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "10.8-V, 2-A dual H-bridge motor driver with current regulation 16-HTSSOP -40 to 85"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -76,16 +77,6 @@
 				)
 			)
 			(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=377881"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "10.8-V, 2-A dual H-bridge motor driver with current regulation 16-HTSSOP -40 to 85"
 				(at 0 0 0)
 				(effects
 					(font
