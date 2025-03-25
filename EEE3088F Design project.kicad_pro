@@ -619,6 +619,10 @@
     [
       "5921a43a-66b4-4a5d-9407-3d9130778733",
       "external load switch"
+    ],
+    [
+      "65d0bbed-f726-4769-bb44-2d9859be798e",
+      "INA219"
     ]
   ],
   "text_variables": {}

@@ -1924,7 +1924,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "main.kicad_sch"
+		(property "Sheetfile" "nested1.kicad_sch"
 			(at 53.34 59.0046 0)
 			(effects
 				(font
@@ -1967,8 +1967,50 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "main.kicad_sch"
+		(property "Sheetfile" "nested2.kicad_sch"
 			(at 54.61 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 102.87)
+		(size 18.415 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65d0bbed-f726-4769-bb44-2d9859be798e")
+		(property "Sheetname" "INA219"
+			(at 208.28 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nested3.kicad_sch"
+			(at 208.28 116.7896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
