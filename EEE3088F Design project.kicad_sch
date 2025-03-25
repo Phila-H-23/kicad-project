@@ -1058,7 +1058,7 @@
 			)
 		)
 	)
-	(global_label "CTRL_EXT_LOAD"
+	(global_label "CTRL_EXT_LOAD2"
 		(shape input)
 		(at 140.97 92.71 180)
 		(fields_autoplaced yes)
@@ -1070,7 +1070,7 @@
 		)
 		(uuid "0be5b8e6-7a80-4ace-b16a-d330de6f3606")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9706 92.71 0)
+			(at 126.003 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1900,7 @@
 	)
 	(sheet
 		(at 53.34 41.91)
-		(size 34.29 24.13)
+		(size 40.64 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1925,7 +1925,7 @@
 			)
 		)
 		(property "Sheetfile" "main.kicad_sch"
-			(at 53.34 66.6246 0)
+			(at 53.34 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,6 +1937,49 @@
 			(project "EEE3088F Design project"
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 68.58)
+		(size 39.37 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5921a43a-66b4-4a5d-9407-3d9130778733")
+		(property "Sheetname" "external load switch"
+			(at 54.61 67.8684 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 54.61 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7"
+					(page "3")
 				)
 			)
 		)

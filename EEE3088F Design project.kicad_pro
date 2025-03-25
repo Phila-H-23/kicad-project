@@ -615,6 +615,10 @@
     [
       "2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10",
       "motor connections"
+    ],
+    [
+      "5921a43a-66b4-4a5d-9407-3d9130778733",
+      "external load switch"
     ]
   ],
   "text_variables": {}
