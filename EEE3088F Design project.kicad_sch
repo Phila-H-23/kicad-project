@@ -1985,6 +1985,48 @@
 		)
 	)
 	(sheet
+		(at 66.04 109.22)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59c96d49-8c3a-47c3-8819-d587b5937e1e")
+		(property "Sheetname" "3V3 5V output"
+			(at 66.04 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nested5.kicad_sch"
+			(at 66.04 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 208.28 102.87)
 		(size 18.415 13.335)
 		(exclude_from_sim no)

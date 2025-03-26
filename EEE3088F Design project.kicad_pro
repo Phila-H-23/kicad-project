@@ -627,6 +627,10 @@
     [
       "765d45a9-64c8-47ae-bd46-40dabd50904e",
       "USB C"
+    ],
+    [
+      "59c96d49-8c3a-47c3-8819-d587b5937e1e",
+      "3V3 5V output"
     ]
   ],
   "text_variables": {}
