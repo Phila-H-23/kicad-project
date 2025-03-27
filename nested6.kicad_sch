@@ -5,6 +5,250 @@
 	(uuid "748a0c66-126e-4a06-b49b-db5cafc308b6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Battery_Management:TP4056-42-ESOP8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.604 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TP4056-42-ESOP8"
+				(at 10.16 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+				(at 0.508 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
+				(at 0.508 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "lithium-ion lithium-polymer Li-Poly"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SO*3.9x4.*P1.27mm*EP2.4*x3.3*mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP4056-42-ESOP8_1_0"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "CE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{CHRG}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{STDBY}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "V_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "BAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "TEMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "PROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TP4056-42-ESOP8_1_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -459,6 +703,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:XL1509-5.0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -671,6 +1053,322 @@
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -983,110 +1681,138 @@
 		)
 	)
 	(junction
-		(at 116.84 115.57)
+		(at 110.49 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00442c36-9ee5-4191-bb9c-3071d67fa31a")
 	)
 	(junction
-		(at 90.17 115.57)
+		(at 83.82 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05ddf65c-b452-4f51-bb53-9fb464d461b8")
 	)
 	(junction
-		(at 116.84 102.87)
+		(at 142.24 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09aca619-ca4a-4258-be51-a4efc83f8032")
+	)
+	(junction
+		(at 110.49 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24b3eaec-2aea-455d-bac3-ad654ecdac5f")
 	)
 	(junction
-		(at 207.01 102.87)
+		(at 200.66 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "280c7a84-175a-4056-a744-4dd5724552ba")
 	)
 	(junction
-		(at 104.14 115.57)
+		(at 97.79 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48456f9e-c79f-4dec-9258-4b4c23f9e011")
 	)
 	(junction
-		(at 207.01 115.57)
+		(at 200.66 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6368a806-fcde-49ae-9bde-30399efa2c87")
 	)
 	(junction
-		(at 153.67 120.65)
+		(at 147.32 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7eaaca4e-c6c7-46f0-98a6-cfd80052f73d")
 	)
 	(junction
-		(at 90.17 102.87)
+		(at 83.82 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80273234-57a7-44d2-825c-bec6b4db59b0")
 	)
 	(junction
-		(at 207.01 97.79)
+		(at 200.66 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ce401e0-fce4-4822-948c-6c5372e5d655")
 	)
 	(junction
-		(at 176.53 120.65)
+		(at 170.18 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9860f6cb-d023-46e9-9420-b69a50df25d9")
 	)
 	(junction
-		(at 104.14 120.65)
+		(at 97.79 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a016898d-eebe-48fb-aff4-1c15cbd3d3c5")
 	)
 	(junction
-		(at 104.14 97.79)
+		(at 97.79 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0b7d197-83b0-4a27-82ba-a30e9605f646")
 	)
 	(junction
-		(at 163.83 120.65)
+		(at 157.48 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a143e6ba-1727-4be3-a83d-88ed07946f22")
 	)
 	(junction
-		(at 144.78 120.65)
+		(at 138.43 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad037c8d-46c7-4c37-b467-76fefc7dd2ba")
 	)
 	(junction
-		(at 104.14 102.87)
+		(at 156.21 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1ffff0c-9487-4e73-9141-213ade0b67c0")
+	)
+	(junction
+		(at 97.79 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc873194-f966-47f5-8edb-0a8ecc557d53")
 	)
 	(junction
-		(at 176.53 97.79)
+		(at 170.18 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c92394ae-78c1-428a-bff3-c19fae2249fa")
 	)
 	(junction
-		(at 144.78 97.79)
+		(at 138.43 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e033a627-4b26-4843-bf84-6a6f525dda35")
 	)
+	(junction
+		(at 156.21 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f003ee05-4a1e-482d-836e-dd2205ae1d85")
+	)
 	(wire
 		(pts
-			(xy 90.17 115.57) (xy 104.14 115.57)
+			(xy 156.21 85.09) (xy 156.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a35fe07-7641-465f-9c61-160149e8e1ed")
+	)
+	(wire
+		(pts
+			(xy 83.82 45.72) (xy 97.79 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1096,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 120.65) (xy 163.83 120.65)
+			(xy 147.32 50.8) (xy 157.48 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1106,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 97.79) (xy 207.01 102.87)
+			(xy 200.66 27.94) (xy 200.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 102.87) (xy 207.01 105.41)
+			(xy 200.66 33.02) (xy 200.66 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1126,7 +1852,27 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 130.81 102.87)
+			(xy 224.79 60.96) (xy 142.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de1fce5-36c7-4636-a671-5f5690cfef63")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a9d1bf-e827-490f-8462-c833edff06d9")
+	)
+	(wire
+		(pts
+			(xy 110.49 33.02) (xy 124.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1136,7 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 115.57) (xy 116.84 115.57)
+			(xy 97.79 45.72) (xy 110.49 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1146,7 +1892,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 105.41) (xy 90.17 102.87)
+			(xy 83.82 35.56) (xy 83.82 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 113.03) (xy 207.01 115.57)
+			(xy 200.66 43.18) (xy 200.66 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 115.57) (xy 104.14 120.65)
+			(xy 97.79 45.72) (xy 97.79 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 144.78 106.68)
+			(xy 138.43 27.94) (xy 138.43 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1186,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 120.65) (xy 207.01 120.65)
+			(xy 170.18 50.8) (xy 200.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1942,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 130.81 115.57)
+			(xy 110.49 45.72) (xy 124.46 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 113.03) (xy 76.2 115.57)
+			(xy 69.85 43.18) (xy 69.85 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 97.79) (xy 176.53 97.79)
+			(xy 167.64 27.94) (xy 170.18 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +1972,27 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 105.41) (xy 219.71 102.87)
+			(xy 224.79 27.94) (xy 224.79 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6115b6-c4f4-4b9c-8278-bfb7b7142ff4")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b55bef-ea78-4244-9115-9fc5762b6da3")
+	)
+	(wire
+		(pts
+			(xy 213.36 35.56) (xy 213.36 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 113.03) (xy 193.04 115.57)
+			(xy 186.69 43.18) (xy 186.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +2012,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 113.03) (xy 130.81 115.57)
+			(xy 124.46 43.18) (xy 124.46 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 97.79) (xy 144.78 97.79)
+			(xy 97.79 27.94) (xy 138.43 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +2032,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 105.41) (xy 76.2 102.87)
+			(xy 156.21 95.25) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b2fcbd-e70c-4689-8758-52b78bc7bd8f")
+	)
+	(wire
+		(pts
+			(xy 69.85 35.56) (xy 69.85 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 113.03) (xy 104.14 115.57)
+			(xy 97.79 43.18) (xy 97.79 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +2062,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 153.67 97.79)
+			(xy 142.24 60.96) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf6fa1f-7804-48e4-9651-0b6f2b082a2d")
+	)
+	(wire
+		(pts
+			(xy 138.43 27.94) (xy 147.32 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +2082,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 105.41) (xy 116.84 102.87)
+			(xy 142.24 116.84) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dad083c-a2fd-412c-8dbb-a0b168cee581")
+	)
+	(wire
+		(pts
+			(xy 110.49 35.56) (xy 110.49 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 97.79) (xy 193.04 97.79)
+			(xy 182.88 27.94) (xy 186.69 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 102.87) (xy 219.71 102.87)
+			(xy 200.66 33.02) (xy 213.36 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 107.95) (xy 163.83 120.65)
+			(xy 157.48 38.1) (xy 157.48 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 116.84 102.87)
+			(xy 97.79 33.02) (xy 110.49 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 120.65) (xy 144.78 120.65)
+			(xy 97.79 50.8) (xy 138.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 105.41) (xy 193.04 102.87)
+			(xy 186.69 35.56) (xy 186.69 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 115.57) (xy 219.71 113.03)
+			(xy 213.36 45.72) (xy 213.36 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +2172,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 207.01 120.65)
+			(xy 142.24 116.84) (xy 142.24 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b9e189-727f-43a1-af60-cab3ec167b58")
+	)
+	(wire
+		(pts
+			(xy 200.66 45.72) (xy 200.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +2192,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 120.65) (xy 104.14 120.65)
+			(xy 93.98 50.8) (xy 97.79 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 115.57) (xy 207.01 115.57)
+			(xy 186.69 45.72) (xy 200.66 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1406,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 219.71 115.57)
+			(xy 200.66 45.72) (xy 213.36 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1416,7 +2222,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 115.57) (xy 116.84 113.03)
+			(xy 110.49 45.72) (xy 110.49 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +2232,57 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 113.03) (xy 90.17 115.57)
+			(xy 173.99 116.84) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80562bb-dfb9-44cf-ba9e-d5ad074abda9")
+	)
+	(wire
+		(pts
+			(xy 118.11 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03a46bc-4fbd-4985-a0fd-ba18010e1abb")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 173.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14da074-c1ff-4f77-85ae-ccaf49c9fc3a")
+	)
+	(wire
+		(pts
+			(xy 156.21 102.87) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fa9a1d-29b8-420e-9fc1-8d6e74fc26c8")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b32aaf-a5c8-4ef2-bc27-25df7cc7f0e8")
+	)
+	(wire
+		(pts
+			(xy 83.82 43.18) (xy 83.82 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 105.41) (xy 130.81 102.87)
+			(xy 124.46 35.56) (xy 124.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1446,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 114.3) (xy 176.53 120.65)
+			(xy 170.18 44.45) (xy 170.18 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 97.79) (xy 104.14 97.79)
+			(xy 69.85 27.94) (xy 97.79 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 120.65) (xy 176.53 120.65)
+			(xy 157.48 50.8) (xy 170.18 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 102.87) (xy 207.01 102.87)
+			(xy 186.69 33.02) (xy 200.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +2342,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 115.57) (xy 90.17 115.57)
+			(xy 69.85 45.72) (xy 83.82 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1496,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 176.53 106.68)
+			(xy 170.18 27.94) (xy 170.18 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 102.87) (xy 90.17 102.87)
+			(xy 69.85 33.02) (xy 83.82 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 184.15 97.79)
+			(xy 170.18 27.94) (xy 177.8 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1526,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 144.78 120.65)
+			(xy 138.43 41.91) (xy 138.43 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 102.87) (xy 104.14 102.87)
+			(xy 83.82 33.02) (xy 97.79 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +2402,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 104.14 97.79)
+			(xy 97.79 33.02) (xy 97.79 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1556,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 120.65) (xy 153.67 120.65)
+			(xy 138.43 50.8) (xy 147.32 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1566,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 104.14 105.41)
+			(xy 97.79 33.02) (xy 97.79 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 102.87) (xy 153.67 120.65)
+			(xy 147.32 33.02) (xy 147.32 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1586,7 +2442,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 97.79) (xy 212.09 97.79)
+			(xy 173.99 104.14) (xy 173.99 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a3aede-125a-41ec-bf50-7715760f70f5")
+	)
+	(wire
+		(pts
+			(xy 200.66 27.94) (xy 224.79 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1596,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 97.79) (xy 207.01 97.79)
+			(xy 191.77 27.94) (xy 200.66 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1605,7 +2471,7 @@
 		(uuid "fb814ad6-24af-461a-ac46-5016b3c6ce0f")
 	)
 	(label "5V"
-		(at 212.09 97.79 0)
+		(at 205.74 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1616,7 +2482,7 @@
 	)
 	(global_label "HV"
 		(shape input)
-		(at 76.2 97.79 180)
+		(at 69.85 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1626,7 +2492,7 @@
 		)
 		(uuid "35ed0291-066c-4f08-a3e7-d0903c44d439")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.5232 97.79 0)
+			(at 74.1732 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +2504,51 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 100.33 120.65 180)
+		(at 118.11 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "4bdf2bc7-aa0f-444c-8b97-645678bf0972")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.6257 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Battery"
+		(shape input)
+		(at 152.4 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "84369f4b-6b3b-45a6-8522-bbcc258b069a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.1583 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 93.98 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1648,7 +2558,7 @@
 		)
 		(uuid "a2a6ed9f-e66e-4168-b3a5-14d6c988c09e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.8457 120.65 0)
+			(at 88.4957 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +2570,7 @@
 	)
 	(symbol
 		(lib_id "TLJA107M006R0800:TLJA107M006R0800")
-		(at 116.84 110.49 270)
+		(at 110.49 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1668,7 +2578,7 @@
 		(dnp no)
 		(uuid "0bff1b1c-69d5-4971-8a5a-9255b3640bae")
 		(property "Reference" "C19"
-			(at 120.142 107.95 90)
+			(at 113.792 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +2587,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 120.142 110.49 90)
+			(at 113.792 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +2596,7 @@
 			)
 		)
 		(property "Footprint" "TLJA107M006R0800:CAPPM3216X180N"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +2606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +2615,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +2624,7 @@
 			)
 		)
 		(property "MF" "KYOCERA AVX"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +2634,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8mm"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +2644,7 @@
 			)
 		)
 		(property "Package" "3216-2 AVX"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +2654,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,7 +2664,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=eda"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +2674,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +2684,7 @@
 			)
 		)
 		(property "PARTREV" "10/2021"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +2694,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=snap"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +2704,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "124309"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +2714,7 @@
 			)
 		)
 		(property "MP" "TLJA107M006R0800"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +2724,7 @@
 			)
 		)
 		(property "Description_1" "100 µF Molded Tantalum Capacitors 6.3 V 1206 (3216 Metric) 800mOhm"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +2734,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +2744,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AVX"
-			(at 116.84 110.49 0)
+			(at 110.49 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,8 +2769,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 156.21 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e7e1c88-279a-4c53-b75b-5b06c24ac068")
+		(property "Reference" "R14"
+			(at 157.734 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 157.734 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c8c66ff-ea6d-4189-bc8d-7ea9eb9e56c5")
+		)
+		(pin "1"
+			(uuid "b9b2fa9a-bc16-49ef-bb5c-6fd4eb270043")
+		)
+		(instances
+			(project ""
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TLJA107M006R0800:TLJA107M006R0800")
-		(at 219.71 110.49 270)
+		(at 213.36 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1868,7 +2847,7 @@
 		(dnp no)
 		(uuid "2417bf35-865f-407c-8a4b-70bf2ba2c7f8")
 		(property "Reference" "C22"
-			(at 223.012 107.95 90)
+			(at 216.662 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +2856,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 223.012 110.49 90)
+			(at 216.662 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +2865,7 @@
 			)
 		)
 		(property "Footprint" "TLJA107M006R0800:CAPPM3216X180N"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +2875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +2884,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +2893,7 @@
 			)
 		)
 		(property "MF" "KYOCERA AVX"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +2903,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8mm"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +2913,7 @@
 			)
 		)
 		(property "Package" "3216-2 AVX"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2923,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +2933,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=eda"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +2943,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +2953,7 @@
 			)
 		)
 		(property "PARTREV" "10/2021"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +2963,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=snap"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +2973,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "124309"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2983,7 @@
 			)
 		)
 		(property "MP" "TLJA107M006R0800"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2993,7 @@
 			)
 		)
 		(property "Description_1" "100 µF Molded Tantalum Capacitors 6.3 V 1206 (3216 Metric) 800mOhm"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,7 +3003,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +3013,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AVX"
-			(at 219.71 110.49 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +3039,7 @@
 	)
 	(symbol
 		(lib_id "TLJA107M006R0800:TLJA107M006R0800")
-		(at 193.04 110.49 270)
+		(at 186.69 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2068,7 +3047,7 @@
 		(dnp no)
 		(uuid "4bf17284-0582-458e-bd16-50c2fd2ea07c")
 		(property "Reference" "C20"
-			(at 196.596 107.95 90)
+			(at 190.246 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +3056,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 196.596 110.49 90)
+			(at 190.246 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +3065,7 @@
 			)
 		)
 		(property "Footprint" "TLJA107M006R0800:CAPPM3216X180N"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +3075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +3084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +3093,7 @@
 			)
 		)
 		(property "MF" "KYOCERA AVX"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +3103,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8mm"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +3113,7 @@
 			)
 		)
 		(property "Package" "3216-2 AVX"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +3123,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +3133,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=eda"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +3143,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +3153,7 @@
 			)
 		)
 		(property "PARTREV" "10/2021"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +3163,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=snap"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +3173,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "124309"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +3183,7 @@
 			)
 		)
 		(property "MP" "TLJA107M006R0800"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +3193,7 @@
 			)
 		)
 		(property "Description_1" "100 µF Molded Tantalum Capacitors 6.3 V 1206 (3216 Metric) 800mOhm"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +3203,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +3213,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AVX"
-			(at 193.04 110.49 0)
+			(at 186.69 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +3239,7 @@
 	)
 	(symbol
 		(lib_id "TLJA107M006R0800:TLJA107M006R0800")
-		(at 130.81 110.49 270)
+		(at 124.46 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2268,7 +3247,7 @@
 		(dnp no)
 		(uuid "6396204f-f040-4416-9b0f-90d177ffd6a2")
 		(property "Reference" "C25"
-			(at 134.366 107.95 90)
+			(at 128.016 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +3256,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 134.366 110.49 90)
+			(at 128.016 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +3265,7 @@
 			)
 		)
 		(property "Footprint" "TLJA107M006R0800:CAPPM3216X180N"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +3275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +3284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +3293,7 @@
 			)
 		)
 		(property "MF" "KYOCERA AVX"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +3303,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8mm"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +3313,7 @@
 			)
 		)
 		(property "Package" "3216-2 AVX"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +3323,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +3333,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=eda"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +3343,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +3353,7 @@
 			)
 		)
 		(property "PARTREV" "10/2021"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +3363,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=snap"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +3373,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "124309"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +3383,7 @@
 			)
 		)
 		(property "MP" "TLJA107M006R0800"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +3393,7 @@
 			)
 		)
 		(property "Description_1" "100 µF Molded Tantalum Capacitors 6.3 V 1206 (3216 Metric) 800mOhm"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +3403,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +3413,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AVX"
-			(at 130.81 110.49 0)
+			(at 124.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +3439,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 186.69 97.79 90)
+		(at 180.34 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2469,7 +3448,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ee3b139-53dc-4977-aca8-cbf2b4d6645a")
 		(property "Reference" "L3"
-			(at 186.69 92.71 90)
+			(at 180.34 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +3456,7 @@
 			)
 		)
 		(property "Value" "47uH"
-			(at 186.69 95.25 90)
+			(at 180.34 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +3464,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
-			(at 186.69 97.79 0)
+			(at 180.34 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +3473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 97.79 0)
+			(at 180.34 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +3482,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 186.69 97.79 0)
+			(at 180.34 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +3507,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 195.58 97.79 90)
+		(at 189.23 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2537,7 +3516,7 @@
 		(fields_autoplaced yes)
 		(uuid "7064e464-9ba0-4aea-9736-b755b6dece9f")
 		(property "Reference" "L2"
-			(at 195.58 92.71 90)
+			(at 189.23 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +3524,7 @@
 			)
 		)
 		(property "Value" "22uH"
-			(at 195.58 95.25 90)
+			(at 189.23 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +3532,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 195.58 97.79 0)
+			(at 189.23 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +3541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 97.79 0)
+			(at 189.23 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +3550,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 195.58 97.79 0)
+			(at 189.23 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,8 +3574,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 173.99 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "789d22ea-2c60-4190-951c-a8b448de33be")
+		(property "Reference" "R16"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 175.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 173.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 173.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6349035b-022c-4d9d-8d69-7c755407587f")
+		)
+		(pin "1"
+			(uuid "5bc825ed-e5f5-4135-9f7e-66352473d312")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TLJA107M006R0800:TLJA107M006R0800")
-		(at 76.2 110.49 270)
+		(at 69.85 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2604,7 +3652,7 @@
 		(dnp no)
 		(uuid "79322b93-aa27-490e-8081-5f0ceb4f9ddc")
 		(property "Reference" "C24"
-			(at 79.756 107.95 90)
+			(at 73.406 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +3661,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 79.756 110.49 90)
+			(at 73.406 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +3670,7 @@
 			)
 		)
 		(property "Footprint" "TLJA107M006R0800:CAPPM3216X180N"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +3680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +3689,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +3698,7 @@
 			)
 		)
 		(property "MF" "KYOCERA AVX"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +3708,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8mm"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +3718,7 @@
 			)
 		)
 		(property "Package" "3216-2 AVX"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,7 +3728,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +3738,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=eda"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +3748,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +3758,7 @@
 			)
 		)
 		(property "PARTREV" "10/2021"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2720,7 +3768,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=snap"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +3778,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "124309"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +3788,7 @@
 			)
 		)
 		(property "MP" "TLJA107M006R0800"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +3798,7 @@
 			)
 		)
 		(property "Description_1" "100 µF Molded Tantalum Capacitors 6.3 V 1206 (3216 Metric) 800mOhm"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +3808,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +3818,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AVX"
-			(at 76.2 110.49 0)
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,8 +3843,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 171.45 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "806d6cfc-4908-489b-9e5c-2ec5d0304c05")
+		(property "Reference" "Q1"
+			(at 177.8 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 177.8 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 176.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 171.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 171.45 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 171.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 171.45 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1497daf-6bfc-403f-b04f-7b8f041304ae")
+		)
+		(pin "1"
+			(uuid "ce4592cd-5a31-413d-bbf3-dcb95d741398")
+		)
+		(pin "2"
+			(uuid "2bd0c34e-dd0c-4cb1-a78d-e0add8f4ebbb")
+		)
+		(instances
+			(project ""
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TLJA107M006R0800:TLJA107M006R0800")
-		(at 90.17 110.49 270)
+		(at 83.82 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2804,7 +3952,7 @@
 		(dnp no)
 		(uuid "83f21e35-c7b3-4028-9ce9-26ea6822d4b1")
 		(property "Reference" "C17"
-			(at 93.726 107.95 90)
+			(at 87.376 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +3961,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 93.726 110.49 90)
+			(at 87.376 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +3970,7 @@
 			)
 		)
 		(property "Footprint" "TLJA107M006R0800:CAPPM3216X180N"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +3980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +3989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +3998,7 @@
 			)
 		)
 		(property "MF" "KYOCERA AVX"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,7 +4008,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8mm"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,7 +4018,7 @@
 			)
 		)
 		(property "Package" "3216-2 AVX"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,7 +4028,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +4038,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=eda"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +4048,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +4058,7 @@
 			)
 		)
 		(property "PARTREV" "10/2021"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,7 +4068,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=snap"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +4078,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "124309"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +4088,7 @@
 			)
 		)
 		(property "MP" "TLJA107M006R0800"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +4098,7 @@
 			)
 		)
 		(property "Description_1" "100 µF Molded Tantalum Capacitors 6.3 V 1206 (3216 Metric) 800mOhm"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +4108,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +4118,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AVX"
-			(at 90.17 110.49 0)
+			(at 83.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +4144,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 176.53 110.49 270)
+		(at 170.18 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3004,7 +4152,7 @@
 		(dnp no)
 		(uuid "86ba3821-8536-4366-bd81-1bc2a6644eef")
 		(property "Reference" "D2"
-			(at 178.308 108.712 90)
+			(at 171.958 38.862 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +4161,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 178.308 111.252 90)
+			(at 171.958 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +4170,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 176.53 110.49 0)
+			(at 170.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +4179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 110.49 0)
+			(at 170.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +4188,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 176.53 110.49 0)
+			(at 170.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,8 +4212,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Battery_Management:TP4056-42-ESOP8")
+		(at 142.24 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96364042-55b5-42f7-a6d1-3d29b492bda2")
+		(property "Reference" "U8"
+			(at 144.3833 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP4056-42-ESOP8"
+			(at 144.3833 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+			(at 142.748 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
+			(at 142.748 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "037f8b9e-41f5-40d2-bacc-daec246dfcce")
+		)
+		(pin "9"
+			(uuid "d2d5342b-d0a4-4ba3-9dcb-e0b73f674824")
+		)
+		(pin "7"
+			(uuid "3dc281d6-7c86-4bf8-a206-154572392f64")
+		)
+		(pin "4"
+			(uuid "c12b74c1-69dd-4a8d-85d2-bd632c0b5df0")
+		)
+		(pin "1"
+			(uuid "f81e292c-5fa1-44c5-87eb-3b641d1ee01c")
+		)
+		(pin "6"
+			(uuid "0ba23f54-92c1-4c50-99c3-29ee41f01582")
+		)
+		(pin "8"
+			(uuid "a9599737-7ede-418f-8ced-5d73d3083860")
+		)
+		(pin "3"
+			(uuid "14aed2c5-6c59-4787-bd78-5cc641ed0f28")
+		)
+		(pin "2"
+			(uuid "82e6d504-ee84-4b64-bb7d-9f5deec2aba6")
+		)
+		(instances
+			(project ""
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TLJA107M006R0800:TLJA107M006R0800")
-		(at 104.14 110.49 270)
+		(at 97.79 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3073,7 +4312,7 @@
 		(dnp no)
 		(uuid "a37b59f1-39cd-4cb9-97a5-5589de8096da")
 		(property "Reference" "C18"
-			(at 107.442 107.95 90)
+			(at 101.092 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +4321,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 107.442 110.49 90)
+			(at 101.092 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +4330,7 @@
 			)
 		)
 		(property "Footprint" "TLJA107M006R0800:CAPPM3216X180N"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +4340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +4349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,7 +4358,7 @@
 			)
 		)
 		(property "MF" "KYOCERA AVX"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +4368,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8mm"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +4378,7 @@
 			)
 		)
 		(property "Package" "3216-2 AVX"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +4388,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +4398,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=eda"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +4408,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +4418,7 @@
 			)
 		)
 		(property "PARTREV" "10/2021"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +4428,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=snap"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +4438,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "124309"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +4448,7 @@
 			)
 		)
 		(property "MP" "TLJA107M006R0800"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +4458,7 @@
 			)
 		)
 		(property "Description_1" "100 µF Molded Tantalum Capacitors 6.3 V 1206 (3216 Metric) 800mOhm"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +4468,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +4478,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AVX"
-			(at 104.14 110.49 0)
+			(at 97.79 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,7 +4504,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:XL1509-5.0")
-		(at 163.83 100.33 0)
+		(at 157.48 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3274,7 +4513,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7a07bc5-79a9-4982-abf3-0a6fa045311e")
 		(property "Reference" "U7"
-			(at 163.83 90.17 0)
+			(at 157.48 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +4521,7 @@
 			)
 		)
 		(property "Value" "XL1509-5.0"
-			(at 163.83 92.71 0)
+			(at 157.48 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +4529,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 163.83 91.948 0)
+			(at 157.48 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +4538,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809050422_XLSEMI-XL1509-5-0E1_C61063.pdf"
-			(at 166.37 89.662 0)
+			(at 160.02 19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +4547,7 @@
 			)
 		)
 		(property "Description" "Buck DC/DC Converter, 2A, 5V Output Voltage, 7-40V Input Voltage"
-			(at 163.83 100.33 0)
+			(at 157.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,7 +4590,7 @@
 	)
 	(symbol
 		(lib_id "TLJA107M006R0800:TLJA107M006R0800")
-		(at 207.01 110.49 270)
+		(at 200.66 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3359,7 +4598,7 @@
 		(dnp no)
 		(uuid "d65587f6-bb3f-4ad8-9d8e-b43b6d5af18c")
 		(property "Reference" "C21"
-			(at 210.312 107.95 90)
+			(at 203.962 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,7 +4607,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 210.312 110.49 90)
+			(at 203.962 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +4616,7 @@
 			)
 		)
 		(property "Footprint" "TLJA107M006R0800:CAPPM3216X180N"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +4626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +4635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +4644,7 @@
 			)
 		)
 		(property "MF" "KYOCERA AVX"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +4654,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.8mm"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +4664,7 @@
 			)
 		)
 		(property "Package" "3216-2 AVX"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +4674,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,7 +4684,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=eda"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +4694,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +4704,7 @@
 			)
 		)
 		(property "PARTREV" "10/2021"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,7 +4714,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLJA107M006R0800/AVX+Interconnect+%252F+Elco/view-part/?ref=snap"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +4724,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "124309"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +4734,7 @@
 			)
 		)
 		(property "MP" "TLJA107M006R0800"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +4744,7 @@
 			)
 		)
 		(property "Description_1" "100 µF Molded Tantalum Capacitors 6.3 V 1206 (3216 Metric) 800mOhm"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +4754,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +4764,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AVX"
-			(at 207.01 110.49 0)
+			(at 200.66 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,17 +4789,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 144.78 109.22 0)
+		(lib_id "Device:R_Small_US")
+		(at 156.21 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1f93e80-20c6-4207-97a4-94a53083324f")
-		(property "Reference" "C9"
-			(at 147.32 107.9562 0)
+		(uuid "e7c9a236-89c5-4074-9b5e-591873c3ba43")
+		(property "Reference" "R15"
+			(at 157.988 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,8 +4806,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 147.32 110.4962 0)
+		(property "Value" "390"
+			(at 157.988 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,8 +4815,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 144.78 109.22 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 156.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +4825,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 109.22 0)
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8245f024-0c6c-4ab5-9538-66db014dbc4f")
+		)
+		(pin "1"
+			(uuid "6ecfae53-de03-47d7-92be-afd97a0cd4bc")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 138.43 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1f93e80-20c6-4207-97a4-94a53083324f")
+		(property "Reference" "C9"
+			(at 140.97 38.1062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 140.97 40.6462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 138.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +4904,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 109.22 0)
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
