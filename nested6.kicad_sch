@@ -1783,6 +1783,12 @@
 		(uuid "bc873194-f966-47f5-8edb-0a8ecc557d53")
 	)
 	(junction
+		(at 165.1 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3907bf5-2397-4bb9-8b4c-2003b9d766da")
+	)
+	(junction
 		(at 170.18 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1793,6 +1799,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e033a627-4b26-4843-bf84-6a6f525dda35")
+	)
+	(junction
+		(at 165.1 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3969d6a-f9bd-4b19-8743-3088d8e8cb40")
 	)
 	(junction
 		(at 156.21 116.84)
@@ -1842,6 +1854,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 106.68) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd37596-54ab-4749-9f3e-ef455754b1de")
+	)
+	(wire
+		(pts
 			(xy 200.66 33.02) (xy 200.66 35.56)
 		)
 		(stroke
@@ -1862,7 +1884,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 85.09) (xy 173.99 91.44)
+			(xy 165.1 114.3) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f614872-6148-4dd0-84d2-c8c0714083b2")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 173.99 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2032,13 +2064,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 95.25) (xy 156.21 97.79)
+			(xy 156.21 95.25) (xy 156.21 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "55b2fcbd-e70c-4689-8758-52b78bc7bd8f")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5677b3-55e7-4b24-a507-5cecad60a078")
 	)
 	(wire
 		(pts
@@ -2079,6 +2121,26 @@
 			(type default)
 		)
 		(uuid "7500d721-72d7-4469-894c-f3f78907a00b")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fe1260-afba-4953-916c-c02e6044a485")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e52f798-afeb-4379-81f2-8128920ccff6")
 	)
 	(wire
 		(pts
@@ -2232,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 116.84) (xy 156.21 116.84)
+			(xy 173.99 116.84) (xy 165.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 102.87) (xy 156.21 116.84)
+			(xy 156.21 101.6) (xy 156.21 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 114.3) (xy 173.99 116.84)
+			(xy 173.99 111.76) (xy 173.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 104.14) (xy 173.99 96.52)
+			(xy 173.99 101.6) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2459,6 +2521,16 @@
 			(type default)
 		)
 		(uuid "f97363e2-5a37-455d-8155-2ccebdc1bd7f")
+	)
+	(wire
+		(pts
+			(xy 165.1 116.84) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb542aa4-fe14-4ef3-ad9c-d7925053430b")
 	)
 	(wire
 		(pts
@@ -2515,6 +2587,28 @@
 		(uuid "4bdf2bc7-aa0f-444c-8b97-645678bf0972")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.6257 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAST_CHARGE_CTRL"
+		(shape input)
+		(at 139.7 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "4e8f0674-effe-4069-a8c1-b9f2e1b9b984")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7493 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,6 +2857,144 @@
 			(project "EEE3088F Design project"
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 165.1 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1050ce53-2f7b-4ff1-b3a2-1414fb67119d")
+		(property "Reference" "R19"
+			(at 166.624 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.624 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aef0efb1-3386-4173-b086-bdc23adc76a5")
+		)
+		(pin "1"
+			(uuid "45f27252-f063-4452-ad86-884996f9c9d1")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 160.02 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18998776-5efb-4282-b51f-7aec2cf2a533")
+		(property "Reference" "R18"
+			(at 161.036 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 159.004 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc6d1680-6e79-4956-9640-8ae2e4b14cc9")
+		)
+		(pin "1"
+			(uuid "4f670224-c401-4799-8883-6fce420e74bc")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3575,7 +3807,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 173.99 93.98 0)
+		(at 173.99 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3583,7 +3815,7 @@
 		(dnp no)
 		(uuid "789d22ea-2c60-4190-951c-a8b448de33be")
 		(property "Reference" "R16"
-			(at 175.26 92.71 0)
+			(at 175.26 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3824,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 175.26 95.25 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +3833,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 173.99 93.98 0)
+			(at 173.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +3842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 93.98 0)
+			(at 173.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +3851,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 173.99 93.98 0)
+			(at 173.99 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +4076,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 171.45 109.22 0)
+		(at 171.45 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3853,7 +4085,7 @@
 		(fields_autoplaced yes)
 		(uuid "806d6cfc-4908-489b-9e5c-2ec5d0304c05")
 		(property "Reference" "Q1"
-			(at 177.8 107.9499 0)
+			(at 177.8 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +4094,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 177.8 110.4899 0)
+			(at 177.8 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +4103,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 176.53 106.68 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +4112,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 171.45 121.92 0)
+			(at 171.45 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +4121,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 171.45 109.22 0)
+			(at 171.45 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +4130,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 171.45 126.365 0)
+			(at 171.45 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +4139,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 171.45 128.27 0)
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +4148,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 171.45 124.46 0)
+			(at 171.45 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+		(property "Footprint" "TP4056-42-ESOP8:SOIC127P600X175-9N"
 			(at 142.748 105.41 0)
 			(effects
 				(font
@@ -4790,7 +5022,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 156.21 100.33 0)
+		(at 156.21 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4798,7 +5030,7 @@
 		(dnp no)
 		(uuid "e7c9a236-89c5-4074-9b5e-591873c3ba43")
 		(property "Reference" "R15"
-			(at 157.988 99.06 0)
+			(at 157.988 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +5039,7 @@
 			)
 		)
 		(property "Value" "390"
-			(at 157.988 101.6 0)
+			(at 157.988 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,7 +5048,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 156.21 100.33 0)
+			(at 156.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +5057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 100.33 0)
+			(at 156.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +5066,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 156.21 100.33 0)
+			(at 156.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
