@@ -2056,6 +2056,12 @@
 		(uuid "2bb6bc70-49b6-4675-a73d-c4b7f513ee51")
 	)
 	(junction
+		(at 208.28 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d262ec1-4d48-4a7b-84ef-45b656518750")
+	)
+	(junction
 		(at 127 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2068,10 +2074,40 @@
 		(uuid "7ba08b9b-9b0a-4bde-a2f5-450ca24083bc")
 	)
 	(junction
+		(at 157.48 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dd48da0-0895-4e6a-b1a3-c414c1371bd2")
+	)
+	(junction
+		(at 59.69 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ffe0e03-1ece-4f68-a536-1a9bbc8cf833")
+	)
+	(junction
+		(at 218.44 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cc55023-9363-4ff7-ab3d-6b6d3cea9491")
+	)
+	(junction
 		(at 50.8 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "961397a0-7b34-4362-b71c-ae38e3dd1207")
+	)
+	(junction
+		(at 158.75 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfb3da5f-780e-4e53-b51b-0e17d6261507")
+	)
+	(junction
+		(at 107.95 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0ae7c2c-54ad-4d18-a483-0e70db65186a")
 	)
 	(junction
 		(at 107.95 127)
@@ -2088,6 +2124,16 @@
 			(type default)
 		)
 		(uuid "11d01fb2-069b-4086-8dbe-f42015d0e904")
+	)
+	(wire
+		(pts
+			(xy 218.44 59.69) (xy 208.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcebd70-d8a5-4d3b-be71-726e1de0bda8")
 	)
 	(wire
 		(pts
@@ -2131,6 +2177,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 62.23) (xy 208.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39db3e94-f673-41ed-abb6-fd760bb96c8b")
+	)
+	(wire
+		(pts
+			(xy 156.21 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4be28c-c149-4c24-b943-43c1232a82a2")
+	)
+	(wire
+		(pts
 			(xy 265.43 80.01) (xy 270.51 80.01)
 		)
 		(stroke
@@ -2171,6 +2237,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 59.69) (xy 218.44 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53067006-f3a3-4198-80af-44904c07e2ae")
+	)
+	(wire
+		(pts
+			(xy 220.98 69.85) (xy 208.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545f4129-93d0-434d-a063-55bc31fb38c2")
+	)
+	(wire
+		(pts
 			(xy 110.49 154.94) (xy 110.49 157.48)
 		)
 		(stroke
@@ -2178,6 +2264,16 @@
 			(type default)
 		)
 		(uuid "5c37448b-85fc-45e0-b7ce-49a0640b652d")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.85) (xy 167.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc9b9f6-bfad-438b-9199-4a3d9582844c")
 	)
 	(wire
 		(pts
@@ -2201,6 +2297,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 62.23) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ee64bb-20e5-442f-a477-ad2751b7a92b")
+	)
+	(wire
+		(pts
 			(xy 67.31 109.22) (xy 50.8 109.22)
 		)
 		(stroke
@@ -2218,6 +2324,16 @@
 			(type default)
 		)
 		(uuid "75d7fb0a-6da6-429f-990a-d77068a35d03")
+	)
+	(wire
+		(pts
+			(xy 220.98 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771515d8-52d6-4e21-88ca-85a65f763dc8")
 	)
 	(wire
 		(pts
@@ -2321,6 +2437,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 59.69) (xy 167.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f9e7e6-0cc2-4fb5-b620-5a6efe34e11f")
+	)
+	(wire
+		(pts
 			(xy 107.95 142.24) (xy 144.78 142.24)
 		)
 		(stroke
@@ -2341,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 127) (xy 67.31 127)
+			(xy 58.42 127) (xy 59.69 127)
 		)
 		(stroke
 			(width 0)
@@ -2358,6 +2484,16 @@
 			(type default)
 		)
 		(uuid "ce5bb08f-caf0-411a-b480-c74cb1317728")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 167.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf097205-a765-4b17-91a5-f9b40111b6db")
 	)
 	(wire
 		(pts
@@ -2388,6 +2524,26 @@
 			(type default)
 		)
 		(uuid "da66d3f8-da87-4343-a35e-518754718633")
+	)
+	(wire
+		(pts
+			(xy 59.69 127) (xy 67.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9c48d0-cba6-4d13-b8e7-1bf4a9a8698b")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 157.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd29050e-9b67-4ba6-b82b-92e3ac231722")
 	)
 	(wire
 		(pts
@@ -2551,7 +2707,7 @@
 	)
 	(global_label "MOTOR1_A_OUT"
 		(shape input)
-		(at 208.28 59.69 0)
+		(at 220.98 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2561,7 +2717,7 @@
 		)
 		(uuid "083e15f7-d7bb-45be-8190-976ae93d9a5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.4771 59.69 0)
+			(at 238.1771 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2729,7 @@
 	)
 	(global_label "MOTOR2_A_OUT"
 		(shape input)
-		(at 208.28 67.31 0)
+		(at 220.98 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2583,7 +2739,7 @@
 		)
 		(uuid "19b52ebf-d3e0-4b9c-a075-f0ee142aff1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.4771 67.31 0)
+			(at 238.1771 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2839,7 @@
 	)
 	(global_label "MOTOR2_CTRL1"
 		(shape input)
-		(at 167.64 67.31 180)
+		(at 156.21 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2693,7 +2849,7 @@
 		)
 		(uuid "3a5355ad-5884-4024-a595-451ab18e4fe1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.3825 67.31 0)
+			(at 138.9525 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2883,7 @@
 	)
 	(global_label "MOTOR1_CTRL1"
 		(shape input)
-		(at 167.64 59.69 180)
+		(at 156.21 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2737,7 +2893,7 @@
 		)
 		(uuid "65168b4e-38cf-405d-a7f7-1d5d74332d0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.3825 59.69 0)
+			(at 138.9525 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2927,7 @@
 	)
 	(global_label "MOTOR1_B_OUT"
 		(shape input)
-		(at 208.28 62.23 0)
+		(at 220.98 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2781,7 +2937,7 @@
 		)
 		(uuid "810828e8-4dc5-4ad2-ac49-bea49dad7de1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.6585 62.23 0)
+			(at 238.3585 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2949,7 @@
 	)
 	(global_label "MOTOR2_CTRL2"
 		(shape input)
-		(at 167.64 69.85 180)
+		(at 156.21 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2803,7 +2959,7 @@
 		)
 		(uuid "b44c52ae-c2a8-49ea-a825-33c60b4ac01a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.3825 69.85 0)
+			(at 138.9525 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +3037,7 @@
 	)
 	(global_label "MOTOR1_CTRL2"
 		(shape input)
-		(at 167.64 62.23 180)
+		(at 156.21 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2891,7 +3047,7 @@
 		)
 		(uuid "d07a4b66-17bf-4e01-b717-57bd1ee02dcf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.3825 62.23 0)
+			(at 138.9525 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +3081,7 @@
 	)
 	(global_label "MOTOR2_B_OUT"
 		(shape input)
-		(at 208.28 69.85 0)
+		(at 220.98 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2935,7 +3091,7 @@
 		)
 		(uuid "eb2166c2-7f3b-46a1-8ff1-10010328ca3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.6585 69.85 0)
+			(at 238.3585 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,6 +3169,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 218.44 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d2d32af-4da9-41a7-8179-afa3c485dc42")
+		(property "Reference" "TP10"
+			(at 220.98 55.1179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 220.98 57.6579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 223.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2cc88e0-e3c5-4a19-9d69-d70edb39abad")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 64.77 137.16 0)
 		(mirror x)
 		(unit 1)
@@ -3040,7 +3263,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 69.85 137.16 0)
 			(effects
 				(font
@@ -3107,7 +3330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL21A106KAYNNNE:CAPC2012X135N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 26.67 111.76 0)
 			(effects
 				(font
@@ -3256,7 +3479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1206W4F400LT5E:RESC3115X65N"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 255.27 80.01 0)
 			(effects
 				(font
@@ -3445,7 +3668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1206W4F400LT5E:RESC3115X65N"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 154.94 147.32 0)
 			(effects
 				(font
@@ -3603,6 +3826,72 @@
 			(project "EEE3088F Design project"
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30ca6a60-ca0d-41df-b1e2-9899831e6fc3")
+		(property "Reference" "TP6"
+			(at 62.23 129.0319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.23 131.5719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d0f286b-258e-438c-a581-2479a039e167")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -4217,6 +4506,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 208.28 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "603be7ad-733f-404b-80eb-4271620dde37")
+		(property "Reference" "TP9"
+			(at 210.82 74.4221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 210.82 71.8821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 208.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1082b329-b300-4377-8c46-aebb35cf6bde")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CL21A106KAYNNNE[1]:CL21A106KAYNNNE")
 		(at 127 44.45 270)
 		(unit 1)
@@ -4244,7 +4600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL21A106KAYNNNE:CAPC2012X135N"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 127 44.45 0)
 			(effects
 				(font
@@ -4368,6 +4724,206 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "719d8c98-f450-49be-901b-fbdddaf17e2e")
+		(property "Reference" "TP8"
+			(at 161.29 74.4221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.29 71.8821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "360eae81-a497-4135-b070-34545026e81d")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "831f9164-b4db-4b40-b2b7-b0fa67318cc6")
+		(property "Reference" "TP7"
+			(at 160.02 66.8021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 160.02 64.2621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c79aa8af-441f-49fa-865c-25a811c84fd9")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "951ec4ea-b734-44bf-a8c7-282192adb462")
+		(property "Reference" "TP5"
+			(at 110.49 139.1919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 141.7319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 102.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "928f11b4-1b9f-4f3a-a842-ebb3f750c8a7")
+		)
+		(instances
+			(project ""
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CL31B225KBHNNNE[1]:CL31B225KBHNNNE")
 		(at 64.77 97.79 180)
 		(unit 1)
@@ -4393,7 +4949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CL31B225KBHNNNE:CAPC3216X180N"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 64.77 97.79 0)
 			(effects
 				(font
@@ -4542,7 +5098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CL31B225KBHNNNE:CAPC3216X180N"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 165.1 30.48 0)
 			(effects
 				(font
@@ -4693,7 +5249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 113.03 127 0)
 			(effects
 				(font
@@ -4826,7 +5382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0603B103K500NT:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 151.13 46.99 0)
 			(effects
 				(font
@@ -4975,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1206W4F400LT5E:RESC3115X65N"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -5166,7 +5722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "0603B103K500NT:CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 50.8 114.3 0)
 			(effects
 				(font
@@ -5317,7 +5873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 213.36 54.61 0)
 			(effects
 				(font
@@ -5382,7 +5938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1206W4F100KT5E:RESC3115X65N"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 255.27 71.12 0)
 			(effects
 				(font
@@ -5573,7 +6129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 113.03 121.92 0)
 			(effects
 				(font
