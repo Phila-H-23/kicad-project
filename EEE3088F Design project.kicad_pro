@@ -631,6 +631,10 @@
     [
       "59c96d49-8c3a-47c3-8819-d587b5937e1e",
       "3V3 5V output"
+    ],
+    [
+      "eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee",
+      "battery"
     ]
   ],
   "text_variables": {}
