@@ -1203,16 +1203,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Vreg cct"
-		(exclude_from_sim no)
-		(at 104.648 120.142 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f6d61da-2aeb-40aa-9e68-8c0788c9cf14")
-	)
 	(junction
 		(at 106.68 114.3)
 		(diameter 0)
@@ -1759,6 +1749,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17902"
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45b25602-9393-40fc-9534-5253793e94c1")
 		)
@@ -1905,6 +1904,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C375525"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2059,6 +2067,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 162.56 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f30004a-3c08-4541-a4b6-6d7bc96cfaa1")
 		)
@@ -2166,7 +2183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INA219AIDR:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -2271,6 +2288,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138706"
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2478,6 +2504,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17902"
+			(at 74.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

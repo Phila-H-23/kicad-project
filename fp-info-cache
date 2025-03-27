@@ -1,4 +1,4 @@
-24740835085765408
+24735605853037394
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -92868,13 +92868,6 @@ Logo WEEE
 0
 0
 0
-TP4056-42-ESOP8
-SOIC127P600X175-9N
-
-
-0
-9
-9
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -99518,17 +99511,3 @@ Varistor VF
 0
 2
 2
-sw_spdt_swag
-Untitled
-
-
-0
-0
-0
-tp4056-43-esop8.0.1
-Untitled
-
-
-0
-0
-0

@@ -2003,16 +2003,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Motor Supply"
-		(exclude_from_sim no)
-		(at 127 23.876 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "34072caa-b5aa-4875-8f49-a326fa73314e")
-	)
 	(text "logic low when faulty"
 		(exclude_from_sim no)
 		(at 115.062 113.792 0)
@@ -2032,16 +2022,6 @@
 			)
 		)
 		(uuid "c939d0dd-4bcb-4161-8767-63b7b20e4041")
-	)
-	(text "Motor Supply"
-		(exclude_from_sim no)
-		(at 26.67 91.186 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e20885b0-b850-49e4-9ce4-98367e8bc317")
 	)
 	(junction
 		(at 64.77 137.16)
@@ -2859,6 +2839,28 @@
 			)
 		)
 	)
+	(global_label "5V_Out"
+		(shape input)
+		(at 127 24.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5396f15b-4ae8-4341-b754-8dee626ca9b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 14.6739 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOTOR3_A_OUT"
 		(shape input)
 		(at 119.38 127 0)
@@ -2938,6 +2940,28 @@
 		(uuid "810828e8-4dc5-4ad2-ac49-bea49dad7de1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.3585 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_Out"
+		(shape input)
+		(at 26.67 91.44 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8278d15e-d825-4693-9cd6-89351ad3c5a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 81.9839 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,6 +3462,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 26.67 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8c532dd6-267d-407f-a780-11131d8200e0")
 		)
@@ -3624,6 +3657,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17928"
+			(at 255.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3816,6 +3858,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C247521"
+			(at 154.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "89b37825-e056-4a1c-b7c2-962fdb5416cb")
 		)
@@ -3923,7 +3974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8833PWPR:IC_DRV8833PWPR"
+		(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias"
 			(at 87.63 132.08 0)
 			(effects
 				(font
@@ -4138,6 +4189,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C50506"
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4227,7 +4287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8833PWPR:IC_DRV8833PWPR"
+		(property "Footprint" "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask2.46x2.31mm_ThermalVias"
 			(at 187.96 64.77 0)
 			(effects
 				(font
@@ -4442,6 +4502,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C50506"
+			(at 187.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4705,6 +4774,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 127 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5057,6 +5135,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C50254"
+			(at 64.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4efff11f-ee33-466d-8c31-5a20145a7428")
 		)
@@ -5203,6 +5290,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C50254"
+			(at 165.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5490,6 +5586,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C57112"
+			(at 151.13 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "721fc096-1603-4f54-a375-7c6101fb354b")
 		)
@@ -5679,6 +5784,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C247521"
+			(at 154.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25eb29ca-df3a-40f6-abb1-2f1f67902320")
 		)
@@ -5827,6 +5941,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C57112"
+			(at 50.8 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6083,6 +6206,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17928"
+			(at 255.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
