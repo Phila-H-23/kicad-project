@@ -1900,7 +1900,7 @@
 	)
 	(sheet
 		(at 53.34 41.91)
-		(size 40.64 16.51)
+		(size 31.75 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1942,8 +1942,8 @@
 		)
 	)
 	(sheet
-		(at 54.61 68.58)
-		(size 39.37 16.51)
+		(at 53.34 64.77)
+		(size 31.75 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1958,7 +1958,7 @@
 		)
 		(uuid "5921a43a-66b4-4a5d-9407-3d9130778733")
 		(property "Sheetname" "external load switch"
-			(at 54.61 67.8684 0)
+			(at 53.34 64.0584 0)
 			(show_name yes)
 			(effects
 				(font
@@ -1968,7 +1968,7 @@
 			)
 		)
 		(property "Sheetfile" "nested2.kicad_sch"
-			(at 54.61 85.6746 0)
+			(at 53.34 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +1985,7 @@
 		)
 	)
 	(sheet
-		(at 66.04 109.22)
+		(at 53.34 88.9)
 		(size 31.75 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2001,7 +2001,7 @@
 		)
 		(uuid "59c96d49-8c3a-47c3-8819-d587b5937e1e")
 		(property "Sheetname" "3V3 5V output"
-			(at 66.04 108.5084 0)
+			(at 53.34 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +2010,7 @@
 			)
 		)
 		(property "Sheetfile" "nested5.kicad_sch"
-			(at 66.04 127.5846 0)
+			(at 53.34 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,8 +2027,8 @@
 		)
 	)
 	(sheet
-		(at 208.28 102.87)
-		(size 18.415 13.335)
+		(at 185.42 62.23)
+		(size 24.13 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2043,7 +2043,7 @@
 		)
 		(uuid "65d0bbed-f726-4769-bb44-2d9859be798e")
 		(property "Sheetname" "INA219"
-			(at 208.28 102.1584 0)
+			(at 185.42 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +2052,7 @@
 			)
 		)
 		(property "Sheetfile" "nested3.kicad_sch"
-			(at 208.28 116.7896 0)
+			(at 185.42 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,14 +2063,14 @@
 		(instances
 			(project "EEE3088F Design project"
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 210.058 74.676)
-		(size 18.542 12.954)
+		(at 184.658 40.386)
+		(size 24.892 15.494)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2085,7 +2085,7 @@
 		)
 		(uuid "765d45a9-64c8-47ae-bd46-40dabd50904e")
 		(property "Sheetname" "USB C"
-			(at 210.058 73.9644 0)
+			(at 184.658 39.6744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2094,7 @@
 			)
 		)
 		(property "Sheetfile" "nested4.kicad_sch"
-			(at 210.058 88.2146 0)
+			(at 184.658 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
