@@ -2357,6 +2357,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17902"
+			(at 205.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aef0efb1-3386-4173-b086-bdc23adc76a5")
 		)
@@ -2426,6 +2435,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc6d1680-6e79-4956-9640-8ae2e4b14cc9")
 		)
@@ -2487,6 +2505,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27834"
 			(at 196.85 76.2 0)
 			(effects
 				(font
@@ -2565,6 +2592,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 45.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7895cddf-b099-4720-a233-a923860d057f")
 		)
@@ -2627,6 +2663,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 135.89 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
 			(at 135.89 43.18 0)
 			(effects
 				(font
@@ -2705,6 +2750,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fa86fde-e2b7-4cf4-a8c8-32d1d7877bc6")
 		)
@@ -2767,6 +2821,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
 			(at 85.09 43.18 0)
 			(effects
 				(font
@@ -2845,6 +2908,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 161.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a260cecc-c6e4-4866-9c96-3bad7b8898f5")
 		)
@@ -2906,6 +2978,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 133.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C361669"
+			(at 133.35 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,6 +3063,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17530"
+			(at 214.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6349035b-022c-4d9d-8d69-7c755407587f")
 		)
@@ -3044,6 +3134,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
 			(at 59.69 43.18 0)
 			(effects
 				(font
@@ -3149,6 +3248,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22446827"
+			(at 212.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b1497daf-6bfc-403f-b04f-7b8f041304ae")
 		)
@@ -3221,6 +3329,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C727113"
+			(at 118.11 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "493704d8-8f85-432e-be26-a9488ba0b5f3")
 		)
@@ -3284,6 +3401,15 @@
 		)
 		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
 			(at 183.388 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16581"
+			(at 182.88 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,6 +3506,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61063"
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "d106386f-af98-49d4-a8f2-2ff82310c57d")
 		)
@@ -3468,6 +3603,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 72.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d97c0683-2ffb-4e34-968a-d700c718cc65")
 		)
@@ -3538,6 +3682,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "510e86b4-fcbd-4692-bced-8ff214382ed4")
 		)
@@ -3599,6 +3752,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23151"
 			(at 196.85 82.55 0)
 			(effects
 				(font

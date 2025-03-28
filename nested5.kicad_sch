@@ -1720,12 +1720,6 @@
 		(uuid "0352b132-6705-4587-a3f6-f466ffd5c329")
 	)
 	(junction
-		(at 80.01 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0648f707-2f7c-484c-91e6-7a2c2c4fe36d")
-	)
-	(junction
 		(at 196.85 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2527,16 +2521,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 74.93) (xy 80.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fa164e-325a-41fa-b4b8-df1c261000e7")
-	)
-	(wire
-		(pts
 			(xy 41.91 149.86) (xy 54.61 149.86)
 		)
 		(stroke
@@ -2947,16 +2931,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 82.55) (xy 43.18 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce7dfdbe-44de-4798-b947-29f8e9f88d3c")
-	)
-	(wire
-		(pts
 			(xy 124.46 69.85) (xy 151.13 69.85)
 		)
 		(stroke
@@ -3175,16 +3149,6 @@
 		)
 		(uuid "fb2cc5fb-76ef-466c-b5f2-0c164d0c6e3c")
 	)
-	(label "Vcc"
-		(at 83.82 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2de3c0b9-ace6-49b6-8643-a629957720aa")
-	)
 	(label "FB"
 		(at 200.66 78.74 0)
 		(effects
@@ -3204,16 +3168,6 @@
 			(justify left bottom)
 		)
 		(uuid "4fd197f2-a97e-4a53-8b4d-cf0ab7ff310d")
-	)
-	(label "Vcc"
-		(at 33.02 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6e49db2-4a3e-43a9-ad86-231159b234b6")
 	)
 	(global_label "5V_Out"
 		(shape input)
@@ -3281,19 +3235,19 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "VCC"
 		(shape input)
 		(at 38.1 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.016 1.016)
+				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "776c830c-3eda-482b-b992-26c58b6670a1")
+		(uuid "c9cd0a7c-5698-4845-a2f2-989f1bb8a92c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.6157 87.63 0)
+			(at 31.4862 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,6 +3275,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 83.82 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa2af7df-b58f-4274-b126-878638543651")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.2062 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3402,6 +3378,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 182.88 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ce57c05-076b-41e2-a5b0-68001ea23c0c")
 		)
@@ -3412,6 +3397,84 @@
 			(project "EEE3088F Design project"
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 170.18 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d76d6d2-9682-44ec-92ea-4ac19dfc0495")
+		(property "Reference" "C30"
+			(at 172.72 81.2735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 172.72 83.8135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f26cebd-9f32-43be-95c9-be762a454171")
+		)
+		(pin "1"
+			(uuid "1c8b7d2c-15e6-4011-806d-da4b24fd30d2")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -3463,6 +3526,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C361669"
+			(at 137.16 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,6 +3604,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
 			(at 93.98 144.78 0)
 			(effects
 				(font
@@ -3610,6 +3691,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 54.61 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d652cd3a-2bf5-46fb-85b4-3bfd20242715")
 		)
@@ -3652,7 +3742,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 158.75 82.55 0)
 			(effects
 				(font
@@ -3671,6 +3761,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 158.75 82.55 0)
 			(effects
 				(font
@@ -3748,6 +3847,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C727113"
+			(at 127 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ca11f83-7da8-4339-a96e-13e1ccb76087")
 		)
@@ -3788,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 196.85 88.9 0)
 			(effects
 				(font
@@ -3808,6 +3916,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17713"
+			(at 196.85 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,6 +3994,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
 			(at 143.51 147.32 0)
 			(effects
 				(font
@@ -3955,6 +4081,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b3ee3ab-3d50-4adb-8961-ed52a2a24146")
 		)
@@ -3996,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -4016,6 +4151,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 99.06 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,76 +4177,6 @@
 			(project "EEE3088F Design project"
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 170.18 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4968e0ef-dffb-467c-b9c8-aafcf29c84f9")
-		(property "Reference" "C30"
-			(at 172.72 81.2735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 172.72 83.8135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0822975a-0fa0-45d2-b070-9a5d4c76eba2")
-		)
-		(pin "1"
-			(uuid "aa9957d9-fa94-437a-a634-792079b1e04b")
-		)
-		(instances
-			(project "EEE3088F Design project"
-				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
-					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.13 78.74 0)
 			(effects
 				(font
@@ -4153,6 +4227,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23231"
+			(at 151.13 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,6 +4313,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce3bcfa6-05cf-46e5-8744-fbb940c80446")
 		)
@@ -4298,6 +4390,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C61063"
+			(at 114.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85663244-69e0-492f-a765-28c3815b0174")
 		)
@@ -4358,7 +4459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -4377,6 +4478,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1622"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -4417,7 +4527,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "220K"
 			(at 78.486 80.264 90)
 			(effects
 				(font
@@ -4425,7 +4535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 76.2 80.01 0)
 			(effects
 				(font
@@ -4445,6 +4555,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22961"
+			(at 76.2 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4603,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "33K"
 			(at 82.55 72.644 90)
 			(effects
 				(font
@@ -4492,7 +4611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 82.55 74.93 0)
 			(effects
 				(font
@@ -4512,6 +4631,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 82.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4216"
+			(at 82.55 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4679,7 @@
 				)
 			)
 		)
-		(property "Value" "2uF"
+		(property "Value" "1.2uH"
 			(at 66.294 82.804 90)
 			(effects
 				(font
@@ -4559,7 +4687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -4586,6 +4714,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C139219"
+			(at 66.04 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "519d6469-e891-4695-b0c0-7035e4ac9e1f")
 		)
@@ -4603,7 +4740,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 48.26 85.09 180)
+		(at 48.26 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4611,7 +4748,7 @@
 		(dnp no)
 		(uuid "8c5182c9-7120-46fc-9332-00110df0b563")
 		(property "Reference" "SW1"
-			(at 48.26 76.2 0)
+			(at 48.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4756,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 48.26 78.74 0)
+			(at 48.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4764,7 @@
 			)
 		)
 		(property "Footprint" "SWITCH:Untitled"
-			(at 48.26 85.09 0)
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +4773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 77.47 0)
+			(at 48.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +4782,16 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 48.26 85.09 0)
+			(at 48.26 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2887259"
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,76 +4812,6 @@
 			(project "EEE3088F Design project"
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 181.61 82.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cfa78b5-3114-42a7-88ff-a6f4d6b7d212")
-		(property "Reference" "C31"
-			(at 184.15 81.2735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 184.15 83.8135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 181.61 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5cc35505-14b1-4748-9294-6131d63125b7")
-		)
-		(pin "1"
-			(uuid "f21f82de-d30b-40e7-a355-bdbf454433f9")
-		)
-		(instances
-			(project "EEE3088F Design project"
-				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -4766,7 +4842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 144.78 86.36 0)
 			(effects
 				(font
@@ -4786,6 +4862,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 144.78 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,6 +5066,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C87357"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "3bd99ad5-0a6e-41ff-b49a-c47b9d365ff3")
 		)
@@ -5078,6 +5172,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 181.61 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a530961c-004c-43af-806b-e553c213d11c")
+		(property "Reference" "C31"
+			(at 184.15 81.2735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 184.15 83.8135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 181.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bcd3eab-35ea-45a9-90d4-71531d54f7e4")
+		)
+		(pin "1"
+			(uuid "e2295db0-e310-4ec3-b3f6-62eb0bf6fa0c")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 196.85 69.85 180)
 		(unit 1)
@@ -5102,7 +5274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 196.85 69.85 0)
 			(effects
 				(font
@@ -5122,6 +5294,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17470"
+			(at 196.85 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,6 +5372,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15008"
 			(at 170.18 147.32 0)
 			(effects
 				(font
@@ -5269,6 +5459,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 156.21 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "edf19698-9287-426e-b396-1d32d78728aa")
 		)
@@ -5312,7 +5511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 58.42 95.25 0)
 			(effects
 				(font
@@ -5331,6 +5530,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 58.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 58.42 95.25 0)
 			(effects
 				(font
@@ -5409,6 +5617,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15008"
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92b516fa-f7b6-4b91-ac0c-61e1690ff696")
 		)
@@ -5451,7 +5668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 151.13 95.25 0)
 			(effects
 				(font
@@ -5470,6 +5687,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1588"
 			(at 151.13 95.25 0)
 			(effects
 				(font

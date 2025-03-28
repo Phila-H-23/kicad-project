@@ -1531,6 +1531,28 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 106.68 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db2f3483-3489-4b18-8366-1266f0e343d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.0662 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 55.88 146.05 180)
