@@ -483,16 +483,40 @@
 		)
 	)
 	(junction
+		(at 165.1 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07efe57d-15e9-4573-a403-727be73db658")
+	)
+	(junction
 		(at 264.16 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e9846a9-6cee-484d-883a-970fb042c432")
 	)
 	(junction
+		(at 231.14 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f6e696a-3fe0-4ea5-a758-47ca64028329")
+	)
+	(junction
 		(at 199.39 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98ab38a9-78a5-4c75-8b91-1bf38f3a35a9")
+	)
+	(junction
+		(at 231.14 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be2bbc8a-7c49-4116-84b5-acf3788474fc")
+	)
+	(junction
+		(at 165.1 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf0e2760-3faa-4d52-b617-4815d70a632c")
 	)
 	(wire
 		(pts
@@ -506,6 +530,36 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 153.67) (xy 236.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e804f6-cfcc-4d89-ae33-4e8ae89031d3")
+	)
+	(wire
+		(pts
+			(xy 168.91 135.89) (xy 165.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f39409-a752-4c6d-99f4-a95f3cc33ea7")
+	)
+	(wire
+		(pts
+			(xy 226.06 152.4) (xy 226.06 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abf574e-b13a-44d8-83d6-aef2d578d327")
+	)
+	(wire
+		(pts
 			(xy 266.7 160.02) (xy 264.16 160.02)
 		)
 		(stroke
@@ -516,23 +570,53 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 148.59) (xy 166.37 149.86)
+			(xy 231.14 143.51) (xy 236.22 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a30ae30-8855-4b7a-b721-5551a5a3908a")
+		(uuid "29a52a79-f454-4be1-838d-4b2673c8941c")
 	)
 	(wire
 		(pts
-			(xy 166.37 160.02) (xy 199.39 160.02)
+			(xy 226.06 143.51) (xy 226.06 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "538ffbea-de11-4e6b-8175-68b82225c8e4")
+		(uuid "30af339d-af91-4342-9a51-e0227adb7774")
+	)
+	(wire
+		(pts
+			(xy 165.1 160.02) (xy 165.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3f7531-a452-4885-9100-f77a53a3437e")
+	)
+	(wire
+		(pts
+			(xy 160.02 143.51) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4793cdb0-3203-4c29-9eb3-807df4074b91")
+	)
+	(wire
+		(pts
+			(xy 231.14 153.67) (xy 236.22 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d8d50a-c8d0-40ee-a4de-8e880dac61ee")
 	)
 	(wire
 		(pts
@@ -546,13 +630,33 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 157.48) (xy 231.14 160.02)
+			(xy 226.06 143.51) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80595698-2441-4183-aacf-ef31c2565d8a")
+	)
+	(wire
+		(pts
+			(xy 231.14 153.67) (xy 231.14 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "83fa6a83-380f-42d2-982e-b81a72c936f6")
+	)
+	(wire
+		(pts
+			(xy 170.18 143.51) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844da70f-e6da-41f0-a880-045c0cd74c9b")
 	)
 	(wire
 		(pts
@@ -566,23 +670,63 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 157.48) (xy 166.37 160.02)
+			(xy 226.06 153.67) (xy 231.14 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b843df82-6526-4a3d-a5b8-04a5b2260cf5")
+		(uuid "9ae008ad-05eb-4c85-982a-c09e9ae00095")
 	)
 	(wire
 		(pts
-			(xy 166.37 135.89) (xy 166.37 140.97)
+			(xy 160.02 152.4) (xy 160.02 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9757907-1c61-43a6-88b1-fac2fbc8283d")
+		(uuid "9f371045-890b-413a-adce-d800c13eac7c")
+	)
+	(wire
+		(pts
+			(xy 236.22 143.51) (xy 236.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7664986-8c8c-45a1-af52-edc0063af1d4")
+	)
+	(wire
+		(pts
+			(xy 170.18 153.67) (xy 170.18 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad741076-2d44-4725-b1f8-458c4b9c0730")
+	)
+	(wire
+		(pts
+			(xy 160.02 143.51) (xy 160.02 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c520e9-40c9-4336-81bc-ef327e2934ed")
+	)
+	(wire
+		(pts
+			(xy 165.1 153.67) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d973ae-fba6-473f-8965-e0f716a4ed00")
 	)
 	(wire
 		(pts
@@ -596,17 +740,27 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 135.89) (xy 168.91 135.89)
+			(xy 165.1 143.51) (xy 170.18 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e17c65cc-8772-4bc1-a8cf-48689ab2c7db")
+		(uuid "d945a98c-48d6-49d7-ab51-9c374e834725")
 	)
 	(wire
 		(pts
-			(xy 231.14 135.89) (xy 231.14 140.97)
+			(xy 165.1 135.89) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad50efe-2e97-45c6-bbc9-56af4ce8f933")
+	)
+	(wire
+		(pts
+			(xy 231.14 135.89) (xy 231.14 143.51)
 		)
 		(stroke
 			(width 0)
@@ -616,13 +770,23 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 148.59) (xy 231.14 149.86)
+			(xy 160.02 153.67) (xy 165.1 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2b3241c-fd52-42b0-984c-731ae37e7386")
+		(uuid "e4556a3d-6521-4df1-8852-38bb725e75cc")
+	)
+	(wire
+		(pts
+			(xy 165.1 160.02) (xy 199.39 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebc6828-15e5-4a40-9658-c1805728520b")
 	)
 	(wire
 		(pts
@@ -812,16 +976,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 166.37 144.78 0)
+		(at 160.02 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b89bab7-1b35-473a-bcb7-25ae53db7544")
 		(property "Reference" "R10"
-			(at 168.91 143.5099 0)
+			(at 161.544 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,8 +992,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.1k"
-			(at 168.91 146.0499 0)
+		(property "Value" "2.2k"
+			(at 161.544 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,8 +1001,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 167.386 145.034 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 161.036 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +1011,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 144.78 0)
+			(at 160.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,7 +1020,16 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 166.37 144.78 0)
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 160.02 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,16 +1054,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 166.37 153.67 0)
+		(at 170.18 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aef66e5-cc7d-41e5-b5ae-dd2d1d5ec98f")
+		(uuid "409ec275-1003-4d72-922c-99b16af5cf0c")
 		(property "Reference" "R11"
-			(at 168.91 152.3999 0)
+			(at 171.704 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -899,8 +1070,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
-			(at 168.91 154.9399 0)
+		(property "Value" "2.2k"
+			(at 171.704 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,8 +1079,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 167.386 153.924 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 171.196 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,7 +1089,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 153.67 0)
+			(at 170.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +1098,16 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 166.37 153.67 0)
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 170.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,10 +1116,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0413a21-241d-440d-8693-4ff606cd9b9f")
+			(uuid "1d5bd30b-9cdc-4951-9b20-7b16dbc808eb")
 		)
 		(pin "2"
-			(uuid "42f893b7-ea55-4992-8b36-a0d120267da2")
+			(uuid "c0236bef-9efd-4a2c-a3d8-e68263b9f88d")
 		)
 		(instances
 			(project "EEE3088F Design project"
@@ -1124,6 +1304,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3230039"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "e6012ed4-44bb-41cd-abe5-c49ff90b9c92")
 		)
@@ -1150,146 +1339,6 @@
 				)
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 231.14 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5612d28c-6569-46a3-9a35-ad6e73eb2fdd")
-		(property "Reference" "R13"
-			(at 233.68 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68"
-			(at 233.68 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 232.156 153.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 231.14 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7e9fe18-4dae-4f86-b2ac-203f56ece397")
-		)
-		(pin "2"
-			(uuid "ceee5f29-57e4-4209-b18d-6860e26f1aaa")
-		)
-		(instances
-			(project "EEE3088F Design project"
-				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 231.14 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fbbc966-b951-455c-89a5-9f68ef068fb5")
-		(property "Reference" "R12"
-			(at 233.68 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.1k"
-			(at 233.68 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 232.156 145.034 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 231.14 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "832bffaf-0bfd-422f-99fa-b8aeac04106c")
-		)
-		(pin "2"
-			(uuid "a970ab57-37fc-4dd8-8189-845a1333f2a9")
-		)
-		(instances
-			(project "EEE3088F Design project"
-				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1469,6 +1518,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3230039"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "c217d173-4ad1-4ff9-b053-44b66ad51d57")
 		)
@@ -1491,6 +1549,162 @@
 			(project "EEE3088F Design project"
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af2e6b1d-c488-4d2d-b92f-86526d5c8f3f")
+		(property "Reference" "R12"
+			(at 227.584 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 227.584 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 227.076 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e3d095-146a-40e0-9541-3294c09666be")
+		)
+		(pin "2"
+			(uuid "a7c6411a-8a16-46e6-a769-8dd8b3d47890")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 236.22 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2d814d1-fd09-457b-8e12-88dfea991398")
+		(property "Reference" "R13"
+			(at 237.744 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 237.744 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 237.236 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 236.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 236.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ac61100-b493-4c54-b12c-b07716e6c51d")
+		)
+		(pin "2"
+			(uuid "198ec4ed-c217-49d5-b1f4-8fea25a3cbaf")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
+					(reference "R13")
 					(unit 1)
 				)
 			)
