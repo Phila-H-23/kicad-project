@@ -1,0 +1,1713 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a147d676-51d2-4549-bd6c-68bfcd4ac5c7")
+	(paper "A4")
+	(title_block
+		(date "2025-03-23")
+		(rev "v0")
+		(company "University of Cape Town")
+		(comment 3 "HNYPHI001, OWNHAN001")
+		(comment 4 "Phila Haanyama, Hannah Owen")
+	)
+	(lib_symbols
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPS22950YBHR:TPS22950YBHR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 11.049 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPS22950YBHR"
+				(at -10.16 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TPS22950YBHR:IC_TPS22950YBHR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "DSBGA-6 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS22950YBHR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "December 2020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22950YBHR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TPS22950YBHR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "5.5-V, 2-A, 40-mΩ load switch with adjustable current limit"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPS22950YBHR_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "ON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "ILIM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "FLT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 165.1 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07efe57d-15e9-4573-a403-727be73db658")
+	)
+	(junction
+		(at 264.16 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e9846a9-6cee-484d-883a-970fb042c432")
+	)
+	(junction
+		(at 231.14 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f6e696a-3fe0-4ea5-a758-47ca64028329")
+	)
+	(junction
+		(at 199.39 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98ab38a9-78a5-4c75-8b91-1bf38f3a35a9")
+	)
+	(junction
+		(at 231.14 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be2bbc8a-7c49-4116-84b5-acf3788474fc")
+	)
+	(junction
+		(at 165.1 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf0e2760-3faa-4d52-b617-4815d70a632c")
+	)
+	(wire
+		(pts
+			(xy 199.39 160.02) (xy 199.39 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030208be-87a0-4a9d-b312-d8fc53048681")
+	)
+	(wire
+		(pts
+			(xy 236.22 153.67) (xy 236.22 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e804f6-cfcc-4d89-ae33-4e8ae89031d3")
+	)
+	(wire
+		(pts
+			(xy 168.91 135.89) (xy 165.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f39409-a752-4c6d-99f4-a95f3cc33ea7")
+	)
+	(wire
+		(pts
+			(xy 226.06 152.4) (xy 226.06 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abf574e-b13a-44d8-83d6-aef2d578d327")
+	)
+	(wire
+		(pts
+			(xy 266.7 160.02) (xy 264.16 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f826ee7-ebd7-4179-822b-795be72418cb")
+	)
+	(wire
+		(pts
+			(xy 231.14 143.51) (xy 236.22 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a52a79-f454-4be1-838d-4b2673c8941c")
+	)
+	(wire
+		(pts
+			(xy 226.06 143.51) (xy 226.06 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30af339d-af91-4342-9a51-e0227adb7774")
+	)
+	(wire
+		(pts
+			(xy 165.1 160.02) (xy 165.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3f7531-a452-4885-9100-f77a53a3437e")
+	)
+	(wire
+		(pts
+			(xy 160.02 143.51) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4793cdb0-3203-4c29-9eb3-807df4074b91")
+	)
+	(wire
+		(pts
+			(xy 231.14 153.67) (xy 236.22 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d8d50a-c8d0-40ee-a4de-8e880dac61ee")
+	)
+	(wire
+		(pts
+			(xy 201.93 160.02) (xy 199.39 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbe9e0a-281d-4261-85fe-952be17d0af5")
+	)
+	(wire
+		(pts
+			(xy 226.06 143.51) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80595698-2441-4183-aacf-ef31c2565d8a")
+	)
+	(wire
+		(pts
+			(xy 231.14 153.67) (xy 231.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fa6a83-380f-42d2-982e-b81a72c936f6")
+	)
+	(wire
+		(pts
+			(xy 170.18 143.51) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844da70f-e6da-41f0-a880-045c0cd74c9b")
+	)
+	(wire
+		(pts
+			(xy 231.14 135.89) (xy 233.68 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9325e62e-2b63-460f-9d92-8668d6e5b90e")
+	)
+	(wire
+		(pts
+			(xy 226.06 153.67) (xy 231.14 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae008ad-05eb-4c85-982a-c09e9ae00095")
+	)
+	(wire
+		(pts
+			(xy 160.02 152.4) (xy 160.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f371045-890b-413a-adce-d800c13eac7c")
+	)
+	(wire
+		(pts
+			(xy 236.22 143.51) (xy 236.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7664986-8c8c-45a1-af52-edc0063af1d4")
+	)
+	(wire
+		(pts
+			(xy 170.18 153.67) (xy 170.18 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad741076-2d44-4725-b1f8-458c4b9c0730")
+	)
+	(wire
+		(pts
+			(xy 160.02 143.51) (xy 160.02 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c520e9-40c9-4336-81bc-ef327e2934ed")
+	)
+	(wire
+		(pts
+			(xy 165.1 153.67) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d973ae-fba6-473f-8965-e0f716a4ed00")
+	)
+	(wire
+		(pts
+			(xy 264.16 160.02) (xy 264.16 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e28666-8fb3-4082-880b-b953d90b290d")
+	)
+	(wire
+		(pts
+			(xy 165.1 143.51) (xy 170.18 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d945a98c-48d6-49d7-ab51-9c374e834725")
+	)
+	(wire
+		(pts
+			(xy 165.1 135.89) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad50efe-2e97-45c6-bbc9-56af4ce8f933")
+	)
+	(wire
+		(pts
+			(xy 231.14 135.89) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19474bf-41d2-4e2f-a77f-8183a6dddd62")
+	)
+	(wire
+		(pts
+			(xy 160.02 153.67) (xy 165.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4556a3d-6521-4df1-8852-38bb725e75cc")
+	)
+	(wire
+		(pts
+			(xy 165.1 160.02) (xy 199.39 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebc6828-15e5-4a40-9658-c1805728520b")
+	)
+	(wire
+		(pts
+			(xy 231.14 160.02) (xy 264.16 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b97db3-11d5-471f-9589-3911a6fb8dbb")
+	)
+	(global_label "5V_Out"
+		(shape input)
+		(at 168.91 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "0ed525e8-aada-47eb-8066-781c91cfb928")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.4747 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_Out"
+		(shape input)
+		(at 233.68 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "5f7eb803-bae4-4666-82dc-917bb817e25b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.2447 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_EXT_LOAD2"
+		(shape input)
+		(at 233.68 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "6f146ff6-df2b-462e-b33b-010c47d2202a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.713 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_LOAD1_OUT"
+		(shape input)
+		(at 199.39 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "c4b14a79-c85b-4a06-aba2-d050612c1672")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.1487 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CTRL_EXT_LOAD1"
+		(shape input)
+		(at 168.91 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c7500f98-a0a0-4cfe-98eb-12c71975c346")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.943 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 266.7 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "d472004f-cf5d-4a5f-8505-952979269c2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.2157 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_LOAD2_OUT"
+		(shape input)
+		(at 264.16 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "ed0d4552-f724-4864-aff3-4802e92ca793")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.9187 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 201.93 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "ed1f9173-1588-4cea-96d1-45d7fc1a66d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.4457 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 160.02 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b89bab7-1b35-473a-bcb7-25ae53db7544")
+		(property "Reference" "R10"
+			(at 161.544 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 161.544 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 161.036 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c17ab3-5623-4811-8560-bdd7fe05afa4")
+		)
+		(pin "2"
+			(uuid "d6d838cf-311b-4cbf-be8b-24bb3694f364")
+		)
+		(instances
+			(project ""
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 170.18 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "409ec275-1003-4d72-922c-99b16af5cf0c")
+		(property "Reference" "R11"
+			(at 171.704 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 171.704 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 171.196 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 170.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d5bd30b-9cdc-4951-9b20-7b16dbc808eb")
+		)
+		(pin "2"
+			(uuid "c0236bef-9efd-4a2c-a3d8-e68263b9f88d")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS22950YBHR:TPS22950YBHR")
+		(at 184.15 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515a2443-350b-494a-b02c-5c4f69cc41dc")
+		(property "Reference" "U3"
+			(at 184.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22950YBHR"
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS22950YBHR:IC_TPS22950YBHR"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.4mm"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DSBGA-6 Texas Instruments"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS22950YBHR/Texas+Instruments/view-part/?ref=eda"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "December 2020"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22950YBHR/Texas+Instruments/view-part/?ref=snap"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS22950YBHR"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "5.5-V, 2-A, 40-mΩ load switch with adjustable current limit"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3230039"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "e6012ed4-44bb-41cd-abe5-c49ff90b9c92")
+		)
+		(pin "C1"
+			(uuid "759fe909-9b66-45c4-a844-ad73736f977e")
+		)
+		(pin "C2"
+			(uuid "42152030-98ba-40c7-a48c-ca252cc0c058")
+		)
+		(pin "B1"
+			(uuid "b2d149e1-6346-45c1-a228-85301f2280ba")
+		)
+		(pin "A2"
+			(uuid "1ddfdae4-e5df-448a-b858-5150037a58b4")
+		)
+		(pin "B2"
+			(uuid "99aaf89d-1376-4bdc-af4e-8358cfbd1e34")
+		)
+		(instances
+			(project ""
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/2f8b3b41-78dd-4dfe-8a8b-1a7f41b39d10"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS22950YBHR:TPS22950YBHR")
+		(at 248.92 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eaec522-5ab1-4b37-a1a4-d8c9d1e39c33")
+		(property "Reference" "U6"
+			(at 248.92 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS22950YBHR"
+			(at 248.92 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS22950YBHR:IC_TPS22950YBHR"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.4mm"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "DSBGA-6 Texas Instruments"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS22950YBHR/Texas+Instruments/view-part/?ref=eda"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "December 2020"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS22950YBHR/Texas+Instruments/view-part/?ref=snap"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS22950YBHR"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "5.5-V, 2-A, 40-mΩ load switch with adjustable current limit"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3230039"
+			(at 248.92 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "c217d173-4ad1-4ff9-b053-44b66ad51d57")
+		)
+		(pin "C1"
+			(uuid "d5a3a968-3eec-419f-a119-9e643d18bbaf")
+		)
+		(pin "C2"
+			(uuid "470f31fd-58ea-4954-b1a4-8d75ef631adf")
+		)
+		(pin "B1"
+			(uuid "2e999442-641d-41a1-98f0-a85e16cdea29")
+		)
+		(pin "A2"
+			(uuid "82414cc8-111b-419d-8743-15d954f5041e")
+		)
+		(pin "B2"
+			(uuid "7c3b98a8-0e8b-4aa3-a194-11ecd64c000c")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af2e6b1d-c488-4d2d-b92f-86526d5c8f3f")
+		(property "Reference" "R12"
+			(at 227.584 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 227.584 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 227.076 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e3d095-146a-40e0-9541-3294c09666be")
+		)
+		(pin "2"
+			(uuid "a7c6411a-8a16-46e6-a769-8dd8b3d47890")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 236.22 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2d814d1-fd09-457b-8e12-88dfea991398")
+		(property "Reference" "R13"
+			(at 237.744 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 237.744 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 237.236 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 236.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 236.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ac61100-b493-4c54-b12c-b07716e6c51d")
+		)
+		(pin "2"
+			(uuid "198ec4ed-c217-49d5-b1f4-8fea25a3cbaf")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/5921a43a-66b4-4a5d-9407-3d9130778733"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
