@@ -1,4 +1,4 @@
-24735605853037394
+24746064396479249
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91195,6 +91195,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SWITCH
+Untitled
+
+
+0
+3
+3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -92868,6 +92875,20 @@ Logo WEEE
 0
 0
 0
+TPS22950YBHR
+IC_TPS22950YBHR
+
+
+0
+6
+6
+TPS61088RHLR
+IC_TPS61088RHLR
+
+
+0
+29
+29
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -99511,3 +99532,24 @@ Varistor VF
 0
 2
 2
+sw_spdt_swag
+Untitled
+
+
+0
+0
+0
+tp4056-43-esop8.0.1
+Untitled
+
+
+0
+0
+0
+tp4056-43-esop8.0.2
+Untitled
+
+
+0
+0
+0
