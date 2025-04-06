@@ -528,6 +528,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "INA219AIDR[1]:INA219AIDR"
 			(pin_names
 				(offset 1.016)
@@ -1210,10 +1317,40 @@
 		(uuid "1a2ddcfb-53fd-4049-9c79-a52d790cd31f")
 	)
 	(junction
+		(at 151.13 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24291bf7-0a85-46d9-aed3-bc9cf1c14ddc")
+	)
+	(junction
+		(at 107.95 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "354fa999-4171-4577-802e-543f608eb9db")
+	)
+	(junction
+		(at 95.25 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5799de8d-0573-4f9c-9e95-131d3b89053e")
+	)
+	(junction
 		(at 72.39 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61663f47-8973-41be-aba6-56b42fc9eb77")
+	)
+	(junction
+		(at 90.17 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a889564c-f549-4cbb-83c4-cabde106573f")
+	)
+	(junction
+		(at 80.01 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d52cc40e-2cbb-451a-a258-ff3524f2ac39")
 	)
 	(wire
 		(pts
@@ -1247,6 +1384,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 133.35) (xy 107.95 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad02930-b813-4c92-98b7-d5aa04bed07a")
+	)
+	(wire
+		(pts
 			(xy 34.29 96.52) (xy 39.37 96.52)
 		)
 		(stroke
@@ -1277,7 +1424,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 162.56 88.9)
+			(xy 143.51 88.9) (xy 151.13 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1317,7 +1464,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 95.25 96.52)
+			(xy 95.25 87.63) (xy 95.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1337,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 109.22) (xy 107.95 146.05)
+			(xy 107.95 109.22) (xy 107.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1347,7 +1494,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.06) (xy 107.95 99.06)
+			(xy 59.69 99.06) (xy 80.01 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1367,6 +1514,26 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 90.17) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f98c71-889e-4550-8e9d-c2b6619d7c40")
+	)
+	(wire
+		(pts
+			(xy 90.17 101.6) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5c5f61-1f06-4734-afc1-1f51dcf379bc")
+	)
+	(wire
+		(pts
 			(xy 62.23 101.6) (xy 72.39 101.6)
 		)
 		(stroke
@@ -1374,6 +1541,16 @@
 			(type default)
 		)
 		(uuid "a6364ed6-bdae-4158-874e-ba82e4e9e273")
+	)
+	(wire
+		(pts
+			(xy 151.13 88.9) (xy 162.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa451693-665c-42ae-8068-394be007773b")
 	)
 	(wire
 		(pts
@@ -1387,7 +1564,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 101.6) (xy 72.39 101.6)
+			(xy 80.01 99.06) (xy 107.95 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7ee09b-3039-4e87-84ed-8908a0762f54")
+	)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 90.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1594,6 +1781,73 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "079e32a6-1abd-48c3-b788-921147552b88")
+		(property "Reference" "TP28"
+			(at 153.67 90.9319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 153.67 93.4719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1706ec50-ff3d-4fda-b642-b8dfcd072898")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/65d0bbed-f726-4769-bb44-2d9859be798e"
+					(reference "TP28")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1954,6 +2208,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 80.01 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "384e9939-200d-4c13-991f-a5cabe3d2e15")
+		(property "Reference" "TP25"
+			(at 82.55 94.4879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 82.55 97.0279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 80.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce1b5670-0e4e-4947-83d2-eb3e584488db")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/65d0bbed-f726-4769-bb44-2d9859be798e"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CL05B104KO5NNNC[1]:CL05B104KO5NNNC")
 		(at 162.56 83.82 270)
 		(unit 1)
@@ -2114,6 +2435,137 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ec41da5-5567-43ab-9875-7c0d20271380")
+		(property "Reference" "TP29"
+			(at 87.376 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 87.376 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22cd66e7-c459-4b9e-9e87-64c19003e08c")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/65d0bbed-f726-4769-bb44-2d9859be798e"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a07a9982-aada-4bd1-a74f-bf9699f27156")
+		(property "Reference" "TP27"
+			(at 113.03 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.03 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c229f31b-c92c-4e59-9bca-d2b409eab854")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/65d0bbed-f726-4769-bb44-2d9859be798e"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 115.57 0)
 		(unit 1)
@@ -2174,6 +2626,73 @@
 			(project ""
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/65d0bbed-f726-4769-bb44-2d9859be798e"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd74de05-f888-4e08-8459-ee3693be5d61")
+		(property "Reference" "TP26"
+			(at 92.71 103.6319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.71 106.1719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 85.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dd4319f-d92a-4bf6-9e34-509ea2410cbd")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/65d0bbed-f726-4769-bb44-2d9859be798e"
+					(reference "TP26")
 					(unit 1)
 				)
 			)

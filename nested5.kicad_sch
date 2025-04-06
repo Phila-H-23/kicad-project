@@ -1899,6 +1899,12 @@
 		(uuid "472172d2-e4a7-4073-9817-1344a89bbe7b")
 	)
 	(junction
+		(at 86.36 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48ccba34-5330-4414-a901-d595011f084a")
+	)
+	(junction
 		(at 68.58 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1969,6 +1975,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad508a54-bf1c-41df-97ac-54044540773f")
+	)
+	(junction
+		(at 90.17 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aea5023c-bdc9-4fe1-b2cd-8d61b20e9e15")
 	)
 	(junction
 		(at 170.18 57.15)
@@ -2252,7 +2264,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 58.42) (xy 88.9 58.42)
+			(xy 83.82 58.42) (xy 86.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2309,6 +2321,16 @@
 			(type default)
 		)
 		(uuid "376a543f-492e-437d-8e1e-e834fcb77301")
+	)
+	(wire
+		(pts
+			(xy 86.36 58.42) (xy 88.9 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3771c94c-2042-472c-a2d0-af17f7287a43")
 	)
 	(wire
 		(pts
@@ -2369,6 +2391,16 @@
 			(type default)
 		)
 		(uuid "3f676b73-9345-4948-b4d2-9d859a73ac7a")
+	)
+	(wire
+		(pts
+			(xy 90.17 134.62) (xy 104.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4034822c-3100-41f7-9f2f-142be7ae8774")
 	)
 	(wire
 		(pts
@@ -2922,7 +2954,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 134.62) (xy 104.14 134.62)
+			(xy 68.58 134.62) (xy 90.17 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3965,6 +3997,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 86.36 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28e6c486-b1a3-44de-bfb1-06818458c5d8")
+		(property "Reference" "TP20"
+			(at 78.74 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 78.74 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c8b73ed-854d-4353-8a09-1a5c3e7f5e34")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 127 147.32 270)
 		(unit 1)
@@ -4743,6 +4841,73 @@
 			(project "EEE3088F Design project"
 				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76577c9b-aa29-4417-bec2-f01bfb3736ee")
+		(property "Reference" "TP19"
+			(at 92.71 130.0479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.71 132.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d0d9642-d91d-40ba-9e97-cbc81d2bb5a9")
+		)
+		(instances
+			(project "EEE3088F Design project"
+				(path "/d1463c6f-2f5e-4460-8cd2-c7ccf4d8def7/59c96d49-8c3a-47c3-8819-d587b5937e1e"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
