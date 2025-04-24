@@ -780,7 +780,7 @@
     ],
     [
       "5921a43a-66b4-4a5d-9407-3d9130778733",
-      "external load switch"
+      "External load switching system"
     ],
     [
       "65d0bbed-f726-4769-bb44-2d9859be798e",
@@ -792,11 +792,11 @@
     ],
     [
       "59c96d49-8c3a-47c3-8819-d587b5937e1e",
-      "3V3 5V output"
+      "3V3 and 5V output"
     ],
     [
       "eb0372fa-b1c5-4b6c-955d-8ba0b61c59ee",
-      "battery"
+      "Battery"
     ]
   ],
   "text_variables": {}

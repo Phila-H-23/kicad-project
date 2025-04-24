@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/Parts/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "APL3553ABI-TRG")(type "KiCad")(uri "${KIPRJMOD}/Parts/APL3553ABI-TRG.kicad_sym")(options "")(descr ""))
+  (lib (name "HIGH SIDE SWITCH")(type "KiCad")(uri "${KIPRJMOD}/Parts/HIGH SIDE SWITCH.kicad_sym")(options "")(descr ""))
+)
