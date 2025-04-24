@@ -1,1 +1,1 @@
-Kicad schematic is in the master branch. 
+KiCad schematic is in the master branch. 
