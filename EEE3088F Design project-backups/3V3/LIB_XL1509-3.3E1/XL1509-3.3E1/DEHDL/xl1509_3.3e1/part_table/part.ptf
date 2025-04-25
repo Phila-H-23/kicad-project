@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XL1509_3.3E1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "XLSEMI", "XL1509-3.3E1" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "", "", "", "", "40V 2A SOP-8_150mil DC-DC Converters RoHS", "https://datasheet.lcsc.com/szlcsc/XLSEMI-XL1509-3-3E1_C74193.pdf", "1.75 mm"
+END_PART
+
+END.
